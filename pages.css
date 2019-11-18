@@ -1,0 +1,141 @@
+body
+{
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+
+#container
+{
+	background-color: #EEE;
+	border-radius: 25px;
+	border-style: solid;
+	border-color: #2161d9;
+	border-width: 5px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	//height: 100%;
+	text-align: center;
+}
+
+#content
+{
+	background-color: #EEE;
+}
+
+#header
+{
+	font-family: Impact, Arial;
+	font-size: 25px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+#main_resume
+{
+	font-family: Impact, Arial;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	opacity: 1;
+	width: 630px;
+	float: right;
+	margin-right: 55px;
+	margin-top: 10px;
+}
+#main_contact
+{
+	font-family: Impact, Arial;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	opacity: 1;
+	width: 630px;
+	float: right;
+	margin-right: 55px;
+	margin-top: 10px;
+}
+
+#main_about
+{
+	font-family: Impact, Arial;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	opacity: 1;
+	width: 630px;
+	float: right;
+	margin-right: 55px;
+	margin-top: 10px;
+}
+
+#main_projects
+{
+	font-family: Impact, Arial;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	opacity: 1;
+	width: 630px;
+	float: right;
+	margin-right: 55px;
+	margin-top: 10px;
+}
+
+#index
+{
+	font-family: Impact, Arial;
+	float: left;
+	background-color: #d4d5d6;
+	width: 180px;
+	margin-left: 15px;
+	//margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 300px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2.5px;
+	border-radius: 10px;
+	padding: 0px 20px 20px 20px;
+}
+
+#index_button
+{
+	padding: 8px 18px;
+	font-family: Impact, Arial;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: black;
+	background-color: #6cabeb;
+	border: none;
+	border-radius: 15px;
+	transition: 0.3s;
+	//opacity: 0.8;
+}
+ #index_button:hover
+ {
+	background-color: #3891eb;
+	opacity: 1;
+	color: white;
+ }
+ 
+ #index_button:active
+ {
+	background-color: #529eeb;
+	//box-shadow: 0 5px #666;
+	transform: translateY(4px);
+ }
+
+#footer
+{
+	font-family: Arial, Times New Roman;
+	text-align: center;
+	color: black;
+	padding: 5px;
+	clear: both;
+}

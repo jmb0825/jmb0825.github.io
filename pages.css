@@ -1,22 +1,21 @@
 body
 {
 	background-color: black;
-	background-repeat: no-repeat;
+	background-size: cover;
 	background-size: 100%
 }
 
 #container
 {
 	background-color: #EEE;
-	border-radius: 25px;
+	border-radius: 10px;
 	border-style: solid;
 	border-color: #2161d9;
-	border-width: 5px;
+	border-width: 3px;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	//height: 100%;
 	text-align: center;
 }
 
@@ -27,7 +26,7 @@ body
 
 #header
 {
-	font-family: Impact, Arial;
+	font-family: Verdana;
 	font-size: 25px;
 	text-align: center;
 	padding: 5px;
@@ -36,20 +35,9 @@ body
 
 #main_resume
 {
-	font-family: Impact, Arial;
+	font-family: Verdana;
 	font-size: 30px;
-	padding: 10px;
-	text-align: center;
-	opacity: 1;
-	width: 630px;
-	float: right;
-	margin-right: 55px;
-	margin-top: 10px;
-}
-#main_contact
-{
-	font-family: Impact, Arial;
-	font-size: 30px;
+	font-weight: bold;
 	padding: 10px;
 	text-align: center;
 	opacity: 1;
@@ -61,8 +49,8 @@ body
 
 #main_about
 {
-	font-family: Impact, Arial;
-	font-size: 30px;
+	font-family: Verdana;
+	font-size: 25px;
 	padding: 10px;
 	text-align: center;
 	opacity: 1;
@@ -74,8 +62,8 @@ body
 
 #main_projects
 {
-	font-family: Impact, Arial;
-	font-size: 30px;
+	font-family: Verdana;
+	font-size: 15px;
 	padding: 10px;
 	text-align: center;
 	opacity: 1;
@@ -85,9 +73,25 @@ body
 	margin-top: 10px;
 }
 
+#project_span
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#project-par
+{
+	font-size: 15px;
+}
+
+#about_par
+{
+	font-size: 18px;
+}
+
 #index
 {
-	font-family: Impact, Arial;
+	font-family: Verdana;
 	float: left;
 	background-color: #d4d5d6;
 	width: 180px;
@@ -105,8 +109,9 @@ body
 #index_button
 {
 	padding: 8px 18px;
-	font-family: Impact, Arial;
+	font-family: Verdana;
 	font-size: 15px;
+	font-weight: bold;
 	text-align: center;
 	cursor: pointer;
 	outline: none;
@@ -133,7 +138,7 @@ body
 
 #footer
 {
-	font-family: Arial, Times New Roman;
+	font-family: Verdana;
 	text-align: center;
 	color: black;
 	padding: 5px;

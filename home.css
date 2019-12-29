@@ -18,7 +18,7 @@ body
 
 #header
 {
-	font-family: Impact, Arial;
+	font-family: Verdana;
 	font-size: 35px;
 	color: white;
 	border-top-left-radius: 25px;
@@ -35,7 +35,7 @@ body
 
 #index
 {
-	font-family: Impact, Arial;
+	font-family: Verdana;
 	font-size: 25px;
 	color: white;
 	width: 300px;
@@ -47,8 +47,9 @@ body
 #index_button
 {
 	padding: 15px 25px;
-	font-family: Impact, Arial;
-	font-size: 15px;
+	font-family: Verdana;
+	font-size: 17px;
+	font-weight: bold;
 	text-align: center;
 	cursor: pointer;
 	outline: none;
@@ -74,7 +75,7 @@ body
 
 #footer
 {
-	font-family: Arial, Times New Roman;
+	font-family: Verdana;
 	text-align: center;
 	color: white;
 	position: absolute;

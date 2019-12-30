@@ -18,7 +18,7 @@ body
 #header
 {
 	font-family: Verdana;
-	font-size: 37px;
+	font-size: 400%;
 	color: white;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
@@ -35,7 +35,7 @@ body
 #index
 {
 	font-family: Verdana;
-	font-size: 25px;
+	font-size: 300%;
 	color: white;
 	width: 70%;
 	margin-left: auto;
@@ -47,7 +47,7 @@ body
 {
 	padding: 15px 25px;
 	font-family: Verdana;
-	font-size: 30px;
+	font-size: 150%;
 	font-weight: bold;
 	text-align: center;
 	cursor: pointer;
@@ -71,14 +71,3 @@ body
 	background-color: #529eeb;
 	transform: translateY(4px);
  }
-
-#footer
-{
-	font-family: Verdana;
-	text-align: center;
-	padding: 5px;
-	color: white;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
